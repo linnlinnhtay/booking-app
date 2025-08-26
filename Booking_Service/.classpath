@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_441"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/api-common-1.9.2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/firebase-admin-4.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/firebase-admin-7.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/google-api-client-1.30.10.jar"/>
+	<classpathentry kind="lib" path="lib/google-auth-library-credentials-0.20.0.jar"/>
+	<classpathentry kind="lib" path="lib/google-auth-library-oauth2-http-0.20.0.jar"/>
+	<classpathentry kind="lib" path="lib/google-http-client-1.35.0.jar"/>
+	<classpathentry kind="lib" path="lib/google-http-client-jackson2-1.36.0.jar"/>
+	<classpathentry kind="lib" path="lib/grpc-context-1.30.0.jar"/>
+	<classpathentry kind="lib" path="lib/gson-2.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/guava-29.0-android.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate-core-4.3.6.Final.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-all-1.9.0.jar"/>
+	<classpathentry kind="lib" path="lib/javax.mail-api-1.4.7.jar"/>
+	<classpathentry kind="lib" path="lib/json-20160212.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="lib/opencensus-api-0.24.0.jar"/>
+	<classpathentry kind="lib" path="lib/opencensus-contrib-http-util-0.24.0.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-support-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-core-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-web-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-webmvc-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/velocity-1.7.jar"/>
+	<classpathentry kind="lib" path="lib/velocity-tools-2.0.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-core-2.8.5.jar"/>
+	<classpathentry kind="lib" path="lib/spring-beans-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-tx-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="lib/jaxrpc-api-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/axis.jar"/>
+	<classpathentry kind="lib" path="lib/commons-discovery-0.2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/jaxrpc.jar"/>
+	<classpathentry kind="lib" path="lib/saaj.jar"/>
+	<classpathentry kind="lib" path="lib/javax.wsdl_1.6.2.v201012040545.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-annotations-2.8.5.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-databind-2.8.5.jar"/>
+	<classpathentry kind="lib" path="lib/javax.persistence-2.1.0-rc1.jar"/>
+	<classpathentry kind="lib" path="lib/okhttp-4.9.0.jar"/>
+	<classpathentry kind="lib" path="lib/okio-2.9.0.jar"/>
+	<classpathentry kind="lib" path="lib/myanmar-tools-1.1.3.jar"/>
+	<classpathentry kind="lib" path="lib/javax.servlet-api-4.0.1.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Booking_DAO"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Booking_Entity"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Booking_Util"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Booking_DTO"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
