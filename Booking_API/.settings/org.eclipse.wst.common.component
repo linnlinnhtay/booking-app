@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+            
+    
+    <wb-module deploy-name="Booking_API">
+                        
+        
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+                
+        <dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/Booking_DAO/Booking_DAO">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/Booking_Entity/Booking_Entity">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/Booking_Service/Booking_Service">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/Booking_Util/Booking_Util">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+        <dependent-module archiveName="Booking_DTO.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Booking_DTO/Booking_DTO">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                        
+        
+        <property name="java-output-path" value="/Booking_API/build/classes"/>
+                
+        <property name="context-root" value="Booking_API"/>
+                    
+    
+    </wb-module>
+        
+
+</project-modules>

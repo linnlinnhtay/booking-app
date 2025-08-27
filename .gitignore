@@ -49,7 +49,6 @@ bin/
 build/*
 
 # Eclipse
-.settings/
 .metadata/
 
 Servers/
